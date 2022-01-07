@@ -1,2 +1,6 @@
 Das ist ein Test ob das nun wirklich alles funkt
 das funkt nicht
+
+wie es schein soll es jetzt tatsächlich funktionieren:
+git remote add origin <url> # ohne anfürhungszeichen 
+git push -u origin main
