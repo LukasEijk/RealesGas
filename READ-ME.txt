@@ -4,3 +4,7 @@ das funkt nicht
 wie es schein soll es jetzt tatsächlich funktionieren:
 git remote add origin <url> # ohne anfürhungszeichen 
 git push -u origin main
+
+
+dann einfach immer schauen, dass branch main aktiv ist in der bash, dann funktioniert auch:
+git push
