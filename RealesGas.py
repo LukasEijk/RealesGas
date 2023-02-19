@@ -26,7 +26,6 @@ class Particle():
         
         
 class Sim():
-    "Ist die Instanz in der die Simulation durchgeführt wird und besteht aus Partikeln"
     
     X = 2
     Y = 2
@@ -169,11 +168,10 @@ def update(frame):
 
 
 ani = FuncAnimation(fig, update, frames = range(24000), init_func = init, blit = True, interval = 1/30, repeat = False)
+plt.show()
 
 
 
-
-# das ist ein test
 
 
 
